@@ -4,7 +4,7 @@ import {
   Injectable,
 } from '@nestjs/common';
 import { Book } from '@prisma/client';
-import { PrismaService } from 'src/shared/services/prisma.service';
+import { PrismaService } from 'src/prisma/prisma.service';
 import { CreateBookDTO } from './dtos/create-book.dto';
 import { UpdateAuthorDTO } from 'src/authors/dtos/update-author.dto';
 import { UpdateBookDTO } from './dtos/update-book.dto';
